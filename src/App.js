@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "./index.css";
 
+// import NavBar from "./NvaBar";
+// import Tables from "./Table";
+import Cards from "./Cards";
+import PieChart from "./PieChart";
+import Region from "./Region";
+import Smile from "./Table";
+import { Container } from "reactstrap";
+
+import FetchedData from "./FetchedData";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid={true}>
+      <div className="body">
+        <div>{<Cards />}</div>
+        <div>{<Region />}</div>
+        <div>{<Smile />}</div>
+      </div>
+    </Container>
   );
 }
 

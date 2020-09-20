@@ -1,13 +1,95 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.bgc {
+  background-color: blue;
+}
+.cl1 {
+  text-align: right;
+  background-color: ;
+}
+
+.cd {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  margin: 10px;
+}
+/* .ct{
+  color: gray;
+  } */
+.feed {
+  width: 100%;
+}
+.wd1 {
+  width: 30%;
+}
+.cb {
+}
+hr {
+  /* background-color: #0755ad; */
+  background-color: blue;
+  height: 10;
+}
+.tw {
+  width: 50%;
+}
+.wr {
+  width: 100%;
+}
+.fm {
+  width: 40;
+}
+.rc1 {
+  background-color: #606575;
+  height: 40px;
+}
+.rc2 {
+  background-color: #494952;
+  height: 40px;
+}
+.rw {
+  width: 45%;
+}
+.pw {
+  width: 45%;
+}
+.sc {
+  display: flex;
+}
+.sc1 {
+  display: flex;
+}
+.res {
+  width: auto;
+}
+.crd1 {
+  width: 100%;
+}
+.crd2 {
+  width: 100%;
+}
+.smalltext {
+  font-size: 12px;
+}
+.cw {
+  width: 100%;
+}
+.fr {
+  width: 93%;
+}
+/* .bgc{
+  background-color: #25272F;
+} */
